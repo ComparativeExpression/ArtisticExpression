@@ -1,0 +1,64 @@
+html,
+body {
+	margin: 0%;
+	margin-top: 0%;
+	padding: 0%;
+	background-color: black;
+}
+.container {
+	background: url(https://firebasestorage.googleapis.com/v0/b/macaco-macaco.appspot.com/o/Backgrounds%2FOnlyTributes.webp?alt=media);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
+.content {
+	position: relative;
+	margin-top: 3em;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: center;
+}
+
+.content p {
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	display: inline;
+	line-height: 4em;
+	background-color: black;
+	color: cyan;
+	padding: 0.5%;
+}
+
+nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.tlinky {
+	width: 42px;
+	height: 42px;
+	top: 2em;
+}
+
+.player {
+	text-align: center;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	color: cyan;
+	background-color: black;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	display: inline;
+}

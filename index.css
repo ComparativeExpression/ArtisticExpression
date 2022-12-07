@@ -1,0 +1,68 @@
+html,
+body {
+	margin: 0%;
+	margin-top: 0%;
+	padding: 0%;
+	background-color: black;
+}
+header {
+	text-align: center;
+}
+
+nav ul li {
+	list-style: none;
+	text-decoration: none;
+}
+
+.content {
+	text-align: center;
+	padding: 2rem;
+	margin-bottom: 3em;
+}
+
+.tlinkh {
+	width: 60px;
+	height: 60px;
+}
+
+.container {
+	background-image: url(https://firebasestorage.googleapis.com/v0/b/macaco-macaco.appspot.com/o/Backgrounds%2FpeaceCode.webp?alt=media);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
+
+.title {
+	font-size: calc(4wv, 0.7hv, 0.3vw);
+	color: white;
+	margin-top: 2em;
+	letter-spacing: 1.5px;
+}
+
+.description1 {
+	color: cyan;
+	background-color: black;
+	font-size: calc(4wv, 0.5hv, 0.1vw);
+	display: inline;
+	line-height: 4em;
+	padding: 0.7%;
+	letter-spacing: 2px;
+}
+.description2 {
+	color: white;
+	background-color: black;
+	font-size: calc(4wv, 0.5hv, 0.1vw);
+	display: inline;
+	line-height: 4em;
+	padding: 0.7%;
+	letter-spacing: 5px;
+}
+
+.player {
+	position: relative;
+	text-align: center;
+}

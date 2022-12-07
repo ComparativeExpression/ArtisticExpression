@@ -1,0 +1,113 @@
+html,
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background: url(https://firebasestorage.googleapis.com/v0/b/macaco-macaco.appspot.com/o/Backgrounds%2FLove.webp?alt=media);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
+
+.player {
+	text-align: center;
+}
+
+.notes {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	text-align: justify;
+	background-color: black;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	line-height: 2em;
+	color: cyan;
+}
+
+.notes a {
+	color: white;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+	text-decoration: none;
+}
+
+.message {
+	background-color: black;
+	color: yellow;
+	text-align: center;
+	justify-content: center;
+	margin-left: 1em;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	margin-right: 1em;
+}
+
+.message a {
+	color: white;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
+	text-decoration: none;
+}
+
+.evil {
+	background-color: black;
+	color: red;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	text-align: center;
+}
+
+.evil a {
+	color: darkorange;
+}
+
+.yin {
+	background-color: black;
+	color: white;
+}
+.yang {
+	background-color: white;
+	color: black;
+}
+.symb {
+	background-color: black;
+	color: yellow;
+}
+
+.dnotes {
+	color: cornflowerblue;
+	background-color: black;
+	text-align: center;
+}
+
+.ask {
+	color: dimgray;
+}
+
+.ans {
+	color: darkslateblue;
+}
+
+.mnotes {
+	color: burlywood;
+}
+
+.videos {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+iframe {
+	justify-content: center;
+}
+
+.img {
+	text-align: center;
+	justify-content: center;
+}

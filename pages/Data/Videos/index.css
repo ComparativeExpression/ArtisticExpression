@@ -1,0 +1,78 @@
+html,
+body {
+	margin: 0.5%;
+	padding: 0.5%;
+	background-color: darkblue;
+}
+
+header {
+	text-align: center;
+}
+
+.complemento {
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	color: blue;
+}
+
+.title {
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+}
+
+.description {
+	color: white;
+	font-size: calc(1vw + 0.5vh + 0.2vmin);
+	line-height: 2em;
+	text-align: justify;
+}
+
+.desc1 {
+	color: cyan;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	line-height: 2em;
+	text-align: justify;
+	background-color: darkgreen;
+	padding: 0.5%;
+}
+.desc2 {
+	color: black;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	line-height: 2em;
+	text-align: justify;
+	background-color: darkturquoise;
+	padding: 0.5%;
+}
+
+.desc3 {
+	color: darkturquoise;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	line-height: 2em;
+	text-align: justify;
+	background-color: seagreen;
+	padding: 0.5%;
+}
+.lastdesc {
+	color: black;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	line-height: 2em;
+	text-align: justify;
+	background-color: darkkhaki;
+	padding: 0.5%;
+}
+
+.desc5 {
+	color: lightskyblue;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	line-height: 2em;
+	text-align: justify;
+	background-color: darkslateblue;
+	padding: 0.5%;
+}

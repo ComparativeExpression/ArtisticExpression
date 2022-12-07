@@ -1,0 +1,96 @@
+html,
+body {
+	margin: 0%;
+	padding: 0%;
+	background-color: black;
+}
+
+.container {
+	background-image: url(https://firebasestorage.googleapis.com/v0/b/macaco-macaco.appspot.com/o/Backgrounds%2FYinYang_Full.jpg?alt=media);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
+nav ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.content {
+	margin-top: 2em;
+	position: relative;
+	text-align: center;
+	display: flex;
+}
+
+.sideL {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.sideL p {
+	text-align: center;
+	margin: 1em;
+}
+
+.sideR {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.sideR p {
+	text-align: center;
+	margin: 1em;
+}
+
+.item {
+	display: inline;
+	background-color: black;
+}
+
+.item a {
+	text-decoration: none;
+	justify-content: center;
+	font-size: calc(1.5vw + 0.5vh + 0.2vmin);
+	color: yellow;
+}
+
+#upper {
+	position: relative;
+	text-align: center;
+}
+
+#Dao {
+	text-align: center;
+	position: relative;
+}
+
+.player {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.foot {
+	text-align: center;
+}
+
+.icon {
+	width: 62px;
+	height: 62px;
+}
+
+#Tao {
+	justify-content: left;
+}
+
+.tlinky {
+	width: 62px;
+	height: 62px;
+	top: 2em;
+}

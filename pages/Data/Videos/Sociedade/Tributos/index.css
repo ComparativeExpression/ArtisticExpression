@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	flex-direction: row nowrap;
+	flex-flow: wrap;
+	position: relative;
+        margin:2%;
+        padding:1%;
+        background-color: midnightblue;
+}
+
+.container p {
+	text-align: justify;
+}
+.intro {
+	display: flex;
+	position: relative;
+	flex-direction: column nowrap;
+	flex-flow: column nowrap;
+	margin: 0.5%;
+	padding: 1%;
+	background-color: dodgerblue;
+}
+
+.intro h1 {
+	text-align: center;
+	background-color: aliceblue;
+}
+
+.desc {
+	background-color: lemonchiffon;
+	color: blue;
+	font-size: calc(10%, 30%, 100%);
+}

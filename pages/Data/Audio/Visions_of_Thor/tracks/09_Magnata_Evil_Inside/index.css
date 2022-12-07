@@ -1,0 +1,60 @@
+html,
+body {
+	margin: 0%;
+	margin-top: 0%;
+	padding: 0%;
+	background-color: black;
+}
+.container {
+	background: url(https://firebasestorage.googleapis.com/v0/b/macaco-macaco.appspot.com/o/last_uploads%2Fma6nata.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
+.content {
+	position: relative;
+	width: 95%;
+	margin-top: 3em;
+	margin-left: 2rem;
+	margin-right: 4rem;
+	text-align: center;
+}
+
+.content p {
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	display: inline;
+	line-height: 4em;
+	background-color: black;
+	color: cyan;
+	padding: 0.5%;
+}
+
+.tlinky {
+	width: 42px;
+	height: 42px;
+	padding: 1em;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	text-decoration: none;
+	color: cyan;
+	background-color: black;
+}
+footer h1 {
+	background-color: black;
+	display: inline;
+}
+
+.player {
+	text-align: center;
+}

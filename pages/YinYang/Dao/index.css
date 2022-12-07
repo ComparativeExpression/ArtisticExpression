@@ -1,0 +1,123 @@
+html,
+body {
+	margin: 0%;
+	margin-top: 0%;
+	padding: 0%;
+	background-color: black;
+}
+header {
+	text-align: center;
+}
+a {
+	color: yellow;
+	text-decoration: none;
+}
+
+nav {
+	flex-flow: column wrap;
+	align-content: center;
+}
+
+nav ul {
+	top: 0;
+	flex-direction: column-reverse;
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+}
+
+.topmenus {
+	display: flex;
+	flex-direction: column nowrap;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+/* Tamanho das dos ICONS do site */
+.tlinky {
+	width: 60px;
+	height: 60px;
+}
+
+.tlinkd {
+	width: 60px;
+	height: 60px;
+}
+.tlinkh {
+	width: 60px;
+	height: 60px;
+}
+
+#YinYang {
+	float: left;
+}
+
+#Home {
+	float: right;
+	margin-right: 2em;
+}
+
+#OscarFM {
+	float: right;
+	margin-right: 2em;
+}
+.table {
+	text-align: center;
+	width: 100%;
+	height: 95%;
+	color: white;
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	align-items: stretch;
+	padding: 1rem;
+}
+
+#symbol {
+	background-color: black;
+	color: rgb(255, 102, 0);
+}
+
+#yinyang {
+	background-color: darkslategray;
+	color: white;
+}
+#yinyang:hover {
+	background-color: rgb(0, 255, 0);
+	color: black;
+}
+
+#fantasy {
+	background-color: darkblue;
+	color: yellow;
+}
+#fantasy:hover {
+	color: darkblue;
+	background-color: yellow;
+}
+
+#logic {
+	background-color: rgb(255, 238, 0);
+	color: darkblue;
+}
+#logic:hover {
+	color: yellow;
+	background-color: darkblue;
+}
+
+#application {
+	background-color: rgb(0, 255, 0);
+}
+#application:hover {
+	color: rgb(0, 255, 0);
+	background-color: darkslategray;
+}
+
+a {
+	color: black;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+}

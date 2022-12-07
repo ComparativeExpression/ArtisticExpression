@@ -1,0 +1,45 @@
+html,
+body {
+	margin: 0%;
+	margin-top: 0%;
+	padding: 0%;
+	background-color: black;
+}
+
+.container {
+	background: url(https://firebasestorage.googleapis.com/v0/b/macaco-macaco.appspot.com/o/last_uploads%2FDAO2.webp?alt=media);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
+
+.content {
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.content p {
+	font-size: calc(2vw + 0.5vh + 0.2vmin);
+	color: cyan;
+}
+
+.content a {
+	color: white;
+	text-decoration: none;
+}
+
+.tlinky {
+	width: 62px;
+	height: 62px;
+	top: 2em;
+	float: right;
+	margin-right: 2em;
+}
+
+footer {
+	text-align: center;
+}

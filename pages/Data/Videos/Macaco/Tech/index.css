@@ -1,0 +1,54 @@
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	flex-direction: row wrap;
+	position: relative;
+        justify-content:space-between;
+	text-align: center;
+	background-color: lightskyblue;
+}
+
+.container p {
+	text-align: justify;
+}
+
+.intro {
+	display: flex;
+	position: relative;
+	flex-direction: column nowrap;
+	flex-flow: column nowrap;
+	max-width: 460px;
+	margin-top: 1.5%;
+	background-color: darkblue;
+	border-style: solid;
+	padding: 0.5%;
+        margin:0.5;
+}
+
+.intro h1{
+  color: lightblue
+}
+
+.desc {
+	max-width: 560px;
+	padding: 0.5%;
+	color: lightgreen;
+}
+
+.desc a {
+	color: darkblue;
+        text-decoration:none;
+}
+
+
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.header {
+    position:fixed;
+    align-content: center;
+    text-align: center;
+  }
